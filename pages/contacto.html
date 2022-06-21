@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital
     ,wdth,wght@0,88.9,418;1,100,800&family=Red+Hat+Mono&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="shortcun icon" href="img/assets/logoico.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Morat</title>
 </head>
@@ -43,12 +44,12 @@
         <!--formulario-->
         <form  >
             <p>Nombre:</p>
-            <input placeholder="Click aquí" >
+            <input placeholder="Click aquí" class="field" >
             <!--required ya que la informacion es necesaria-->
             <p>Email:</p>
-            <input type="Email" placeholder="Click aquí" required  >
+            <input type="Email" placeholder="Click aquí" required class="field" >
             <p>Sugerencias</p>
-            <textarea name="" id="" cols="30" rows="5" placeholder="Dejanos tu sugerencias aquí, gracias por elegirnos!" ></textarea>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Dejanos tu sugerencias aquí, gracias por elegirnos!" class="field" ></textarea>
             <input type="submit" class="btn btn-green" value="Enviar Datos">
             <input type="reset" value="Borrar" class="borrar">
         </form>
@@ -75,6 +76,9 @@
         </address>
     </div>
 </footer>
-    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
