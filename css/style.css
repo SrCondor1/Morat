@@ -518,9 +518,10 @@ footer{
     justify-content: center;
     height: auto;   
 }
-.item_derec{
-    color:rgb(255, 255, 255)
-} .item_contac{
+.item_derechos{
+    color:rgb(255, 255, 255);
+    margin-left: 30px;
+} .item_contacto{
     color:rgb(255, 255, 255);
     margin-left: 30px;
 }
