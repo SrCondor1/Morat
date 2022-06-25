@@ -48,24 +48,42 @@ header{
 a{
     text-decoration: none
 }
-nav a{
-    margin: 5px;
-    padding: 5px;
+.navbar-brand{
     text-decoration: none;
-    color: rgb(236, 232, 232);
+    font-size: larger;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Red Hat Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
-    font-size:large;
 }
-.lista-nav{
+nav ul li .nav-link{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Red Hat Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
     border-radius: 5px;
-    padding: 15px ;
     background-color: rgba(229, 32, 42, 0.781);
     
+}
+
+.navbar{
+    width: max-content;
+}
+/*hover nav2*/
+.container_nav_header .nav-link:hover{
+    background-color: rgba(228, 224, 224, 0.781);
+    width: max-content;
+
+    color: black;
+    border-radius: 10px;
+}
+.btn-social:hover{
+    transition-duration: 0.6s;
+    transform: scale(1.2);
+    transform-origin: top;
 }
 
 /*cierre header*/
@@ -88,7 +106,7 @@ nav a{
     padding: 5px;
 }
 
-.item_h1{
+.item_h1-1{
     background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
@@ -107,6 +125,10 @@ iframe{
 
 
 @media only screen and (min-width:1199px) {
+    .navbar{
+        width: max-content;
+    }
+    
     .container_section{
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -117,6 +139,9 @@ iframe{
     }  
 }
 @media only screen and (max-width:1024px) {
+    .navbar{
+        width: max-content;
+    }
     .container_section{
         display: grid;
         grid-template-areas: 
@@ -136,6 +161,9 @@ iframe{
     
 } 
 @media only screen and (max-width:768px) {
+    .navbar{
+        width: auto;
+    }
     .container_section{
         display: grid;
         grid-template-areas: 
@@ -168,7 +196,7 @@ iframe{
     }  
     iframe{
         
-        width: 45vh;
+        width: 40vh;
     }
     .item_video, .item_video2{
         display: flex;
@@ -281,10 +309,12 @@ ul li{
     height: 300px;
     
 }
-.item_top{
-    grid-area: titlealbum;
+.item_top-1{
+    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
+    padding: 10px;
+    grid-area: titlealbum;
 }
 .item_top1{
     display: flex;
@@ -465,31 +495,34 @@ input, textarea{
 }
 
 
-
-
-
-
-
-
-
 /*Footer*/
 .container_twins_footers{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Red Hat Mono', monospace;
 font-family: 'Ubuntu', sans-serif;
+}
+/*Footer*/
+/*
+.container_twins_footers{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+
 
 }
 footer{
     bottom: 0;
     margin-top: auto;
 }
-.container_footer1{
-    background-color: rgba(229, 32, 42, 0.9);
-    display: flex;
-    justify-content: center;
-}
+
 .item__links{
     padding: 1vh;
+}
+*/
+footer{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
 .icon_social_youtube{
     height: 6vh;
@@ -503,7 +536,19 @@ footer{
 .icon_social_musical{
     height: 6vh;
     margin-left: 0;
-}  
+}
+.container_footer1{
+    background-color: rgba(229, 32, 42, 0.9);
+    display: flex;
+}
+.item_derecchos{
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+/*  
 .item__seguinos{
     color: rgb(255, 255, 255) ;
     display: flex;
@@ -518,13 +563,17 @@ footer{
     justify-content: center;
     height: auto;   
 }
+<<<<<<< HEAD
 .item_derechos{
     color:rgb(255, 255, 255);
     margin-left: 30px;
 } .item_contacto{
+=======
+.item_contacto{
+>>>>>>> UsodeBS
     color:rgb(255, 255, 255);
     margin-left: 30px;
 }
 .item_contacto_html{
     color: rgb(229, 32, 42) ;
-}
+}*/
