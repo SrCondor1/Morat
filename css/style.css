@@ -9,6 +9,7 @@ font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(243, 223, 212);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Red Hat Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
@@ -93,6 +94,8 @@ nav ul li .nav-link{
 
 /*Contenido index*/
 .item_h1-1{
+    
+    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -217,6 +220,7 @@ iframe{
 
 
 .discografia_h2{
+    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -311,6 +315,7 @@ ul li{
     
 }
 .item_top-1{
+    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 10px;
