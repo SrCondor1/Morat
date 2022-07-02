@@ -100,7 +100,7 @@ nav ul li .nav-link{
     justify-content: center;
     padding: 10px;
 }
-/*
+
 .container1{
     grid-area: contenido;
 }
@@ -211,7 +211,8 @@ iframe{
     .item_parrafo1,.item_parrafo2{
         padding: 35px;
     }
-}*/
+}
+
 
 
 
@@ -443,7 +444,15 @@ ul li{
 .container_fondos h3{
     text-align: center;
 }
+.btn-dark a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
 
+}
 
 
 
@@ -568,14 +577,10 @@ footer{
     justify-content: center;
     height: auto;   
 }
-<<<<<<< HEAD
 .item_derechos{
     color:rgb(255, 255, 255);
     margin-left: 30px;
 } .item_contacto{
-=======
-.item_contacto{
->>>>>>> UsodeBS
     color:rgb(255, 255, 255);
     margin-left: 30px;
 }
