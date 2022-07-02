@@ -94,8 +94,6 @@ nav ul li .nav-link{
 
 /*Contenido index*/
 .item_h1-1{
-    
-    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -221,7 +219,6 @@ iframe{
 
 
 .discografia_h2{
-    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -316,7 +313,6 @@ ul li{
     
 }
 .item_top-1{
-    background-color:rgba(162, 72, 37, 0.9);
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -328,7 +324,7 @@ ul li{
 }
 .container_top_album{
     grid-area: topalbum;
-    padding: 20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
 }
@@ -337,11 +333,16 @@ ul li{
     grid-area: topsong;
     display: flex;
     justify-content: center;
+    margin: 20px;
+}
+.img-top10{
+    height: 200px;
+    border-radius: 5px;
 }
 @media only screen and (max-width:768px) {
     .container_top{ 
         display: grid;
-        grid-template-rows: 20px 1fr 1fr;
+        grid-template-rows: 20px 300px 1fr;
         grid-template-areas: 
         "titlealbum"
         "topalbum"
@@ -357,7 +358,7 @@ ul li{
 @media only screen and (max-width:480px) {
     .container_top{ 
         display: grid;
-        grid-template-rows: 20px 1fr 1fr;
+        grid-template-rows: 20px 300px 1fr;
         grid-template-areas: 
         "titlealbum"
         "topalbum"
