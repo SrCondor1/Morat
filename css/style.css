@@ -8,9 +8,7 @@ font-family: 'Ubuntu', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(243, 223, 212);
-}
+
 
 
 header{
@@ -89,6 +87,12 @@ nav ul li .nav-link{
 
 
 /*Contenido index*/
+.item_h1-1{
+    background-color:rgba(162, 72, 37, 0.9);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 .container1{
     grid-area: contenido;
@@ -105,12 +109,7 @@ nav ul li .nav-link{
     padding: 5px;
 }
 
-.item_h1-1{
-    background-color:rgba(162, 72, 37, 0.9);
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
+
 iframe{
     padding: 10px;
 }
@@ -206,6 +205,7 @@ iframe{
         padding: 35px;
     }
 }
+
 
 
 
@@ -437,7 +437,15 @@ ul li{
 .container_fondos h3{
     text-align: center;
 }
+.btn-dark a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
 
+}
 
 
 
