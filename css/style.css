@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background-image: url("../img/assets/backgraound2.png");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 25%;
+  height: 610px; }
+  header .container_header_link {
+    background-color: rgba(162, 72, 37, 0.9);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    height: auto; }
+    header .container_header_link .btn-social:hover {
+      transition-duration: 0.6s;
+      transform: scale(1.2);
+      transform-origin: top; }
+    header .container_header_link .icon_socialini {
+      width: 30px; }
+    header .container_header_link .icon_social_musicalini {
+      width: 31px; }
+  header .container_nav_header {
+    border-radius: 5px;
+    background-color: rgba(229, 32, 42, 0.781);
+    width: max-content;
+    margin: 30px; }
+    header .container_nav_header .navbar-brand {
+      text-decoration: none;
+      font-size: larger;
+      font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+    header .container_nav_header .navbar {
+      background-color: rgba(229, 32, 42, 0.781); }
+    header .container_nav_header .nav-link {
+      font-size: larger;
+      color: white;
+      font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+      header .container_nav_header .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.781);
+        width: max-content;
+        color: black;
+        margin-left: 10px;
+        border-radius: 10px; }
+
+footer {
+  background-color: rgba(229, 32, 42, 0.9);
+  display: flex;
+  font-size: larger;
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+  footer div span {
+    color: white; }
+  footer ul li img {
+    height: 7vh;
+    margin: 3px; }

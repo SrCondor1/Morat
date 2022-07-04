@@ -1,0 +1,59 @@
+header{
+        
+        background-image: url("../img/assets/backgraound2.png");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 25%;
+        height: 610px;
+            .container_header_link{
+                background-color:$ColorHeaderRedes;
+                border-radius: 0px 0px 10px 10px;
+                display: flex ;
+                padding: 5px;
+                justify-content: center;
+                height: auto;
+                    .btn-social:hover{
+                        transition-duration: 0.6s;
+                        transform: scale(1.2);
+                        transform-origin: top;
+                    }
+                    .icon_socialini{
+                        width: 30px;
+                    }
+                    .icon_social_musicalini{
+                        width: 31px;
+                    }
+                    
+            }
+        .container_nav_header{
+            border-radius: 5px;
+            background-color: $ColorPrincipal;
+            width: max-content;
+            margin: 30px;
+            .navbar-brand{
+                text-decoration: none;
+                font-size: larger;
+                font-family: $FuentePrincipal;
+            }
+            .navbar{
+                background-color: $ColorPrincipal;
+                
+            }
+                .nav-link{
+                    font-size: larger;
+                    color: white;
+                    font-family: $FuentePrincipal;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.781);
+                        width: max-content;
+                        color: black;
+                        margin-left: 10px;
+                        border-radius: 10px;
+                    }
+                    
+                }
+            
+            
+        
+        }
+}
