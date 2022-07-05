@@ -6,8 +6,51 @@
 a{
     text-decoration: none
 }
-
 @import "utilities/variables";
+@import "layout/medias";
 @import "layout/_header";
+@import "layout/_mainContacto";
 @import "layout/_footer.scss";
-@import "layout/_mainFondos";
+
+/*button volver arriba*/
+.btnTop{
+    margin: 20px;
+} 
+.btn-dark a{
+    color: aliceblue;
+    font-family:$FuentePrincipal ;
+    font-size: large;
+}
+/*Tituloindex*/
+.item_h1-1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+/*Titulo discografia, Biografia y top10*/
+.discografia_h2, .biografia, .item_top-1{
+    font-family: $FuentePrincipal;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+/*Img de top10*/
+.img-top10{
+    height: 200px;
+}
+
+/*Img de fondos*/
+.fotomobile{
+    margin: 10px;
+    width: 30vh;
+}
+.fondopc{
+    margin: 10px;
+    height:45vh ;
+}
+.container_fondos h3{
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+}

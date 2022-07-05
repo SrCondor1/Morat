@@ -1,6 +1,6 @@
 header{
         
-        background-image: url("../img/assets/backgraound2.png");
+        background-image: url("../img/assets/backgraound2.webp");
         background-size: cover;
         background-position-x: center;
         background-position-y: 25%;
@@ -18,7 +18,7 @@ header{
                         transform-origin: top;
                     }
                     .icon_socialini{
-                        width: 30px;
+                        width: 31px;
                     }
                     .icon_social_musicalini{
                         width: 31px;
@@ -28,7 +28,8 @@ header{
         .container_nav_header{
             border-radius: 5px;
             background-color: $ColorPrincipal;
-            width: max-content;
+            
+            display: flex;
             margin: 30px;
             .navbar-brand{
                 text-decoration: none;
@@ -47,7 +48,6 @@ header{
                         background-color: rgba(255, 255, 255, 0.781);
                         width: max-content;
                         color: black;
-                        margin-left: 10px;
                         border-radius: 10px;
                     }
                     

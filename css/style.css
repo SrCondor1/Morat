@@ -6,8 +6,19 @@
 a {
   text-decoration: none; }
 
+@media only screen and (min-width: 769px) {
+  .navbar {
+    width: max-content; } }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: auto; }
+  .nav-item:hover {
+    margin-left: 10px;
+    display: flex; } }
+
 header {
-  background-image: url("../img/assets/backgraound2.png");
+  background-image: url("../img/assets/backgraound2.webp");
   background-size: cover;
   background-position-x: center;
   background-position-y: 25%;
@@ -24,13 +35,13 @@ header {
       transform: scale(1.2);
       transform-origin: top; }
     header .container_header_link .icon_socialini {
-      width: 30px; }
+      width: 31px; }
     header .container_header_link .icon_social_musicalini {
       width: 31px; }
   header .container_nav_header {
     border-radius: 5px;
     background-color: rgba(229, 32, 42, 0.781);
-    width: max-content;
+    display: flex;
     margin: 30px; }
     header .container_nav_header .navbar-brand {
       text-decoration: none;
@@ -46,8 +57,36 @@ header {
         background-color: rgba(255, 255, 255, 0.781);
         width: max-content;
         color: black;
-        margin-left: 10px;
         border-radius: 10px; }
+
+.container_form {
+  background-color: rgba(240, 150, 65, 0.9);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 300px;
+  font-size: 1em; }
+  .container_form input, .container_form textarea {
+    border: 0;
+    outline: none; }
+  .container_form .field {
+    border-radius: 5px;
+    border: solid 1px rgba(194, 52, 52, 0.9);
+    padding: 10px;
+    width: 250px; }
+  .container_form .btn {
+    margin-left: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: aliceblue;
+    border: solid 1px rgba(194, 52, 52, 0.9); }
+  .container_form .borrar {
+    border-radius: 10px;
+    border: solid 1px rgba(202, 53, 53, 0.9);
+    margin-top: 10px;
+    padding: 10px; }
 
 footer {
   background-color: rgba(229, 32, 42, 0.9);
@@ -59,4 +98,44 @@ footer {
   footer ul li img {
     height: 7vh;
     margin: 3px; }
- 
+
+/*button volver arriba*/
+.btnTop {
+  margin: 20px; }
+
+.btn-dark a {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: large; }
+
+/*Tituloindex*/
+.item_h1-1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+/*Titulo discografia, Biografia y top10*/
+.discografia_h2, .biografia, .item_top-1 {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 5px; }
+
+/*Img de top10*/
+.img-top10 {
+  height: 200px; }
+
+/*Img de fondos*/
+.fotomobile {
+  margin: 10px;
+  width: 30vh; }
+
+.fondopc {
+  margin: 10px;
+  height: 45vh; }
+
+.container_fondos h3 {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center; }
