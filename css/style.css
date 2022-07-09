@@ -103,7 +103,8 @@ footer {
 .btnTop {
   margin: 20px; }
 
-.btn-dark a {
+.btn-dark a, .btn-red a {
+  text-decoration: none;
   color: aliceblue;
   font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
   font-size: large; }
@@ -126,7 +127,7 @@ footer {
 .img-top10 {
   height: 200px; }
 
-/*Img de fondos*/
+/*Fondos*/
 .fotomobile {
   margin: 10px;
   width: 30vh; }
@@ -135,7 +136,14 @@ footer {
   margin: 10px;
   height: 45vh; }
 
-.container_fondos h3 {
-  display: flex;
-  justify-content: flex-end;
-  text-align: center; }
+.fondos {
+  border-radius: 5px; }
+
+.text-fondos {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: 1.5rem; }
+
+.a-fondos {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: medium;
+  text-decoration: none; }
