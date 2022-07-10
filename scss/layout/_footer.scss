@@ -1,8 +1,5 @@
 footer{
-    background-color: $ColorFooter;
-    display: flex;
-    font-size: larger;
-    font-family: $FuentePrincipal;
+    @include Footer;
     div span{
             color:rgb(255, 255, 255);
         }

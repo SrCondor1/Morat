@@ -103,12 +103,13 @@ footer {
 .btnTop {
   margin: 20px; }
 
-.btn-dark a, .btn-red a {
+.btn-dark a, .btn-secondary a a {
   text-decoration: none;
   color: aliceblue;
   font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
   font-size: large; }
 
+/*corregir btn de ir atras en fondos de pantalla pc y mobile*/
 /*Tituloindex*/
 .item_h1-1 {
   display: flex;
@@ -123,9 +124,12 @@ footer {
   justify-content: center;
   padding: 5px; }
 
-/*Img de top10*/
+/*top10*/
 .img-top10 {
   height: 200px; }
+
+.top1album {
+  width: 50vh; }
 
 /*Fondos*/
 .fotomobile {

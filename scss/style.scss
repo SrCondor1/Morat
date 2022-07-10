@@ -16,17 +16,22 @@ a{
 .btnTop{
     margin: 20px;
 } 
-.btn-dark a, .btn-red a{
+.btn-dark a{
     text-decoration: none;
     color: aliceblue;
     font-family:$FuentePrincipal ;
     font-size: large;
 }
+.btn-secondary a{
+    @extend .btn-dark
+};
+/*corregir btn de ir atras en fondos de pantalla pc y mobile*/
+
 /*Tituloindex*/
 .item_h1-1{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: map-get($padding , p-10 );
 }
 /*Titulo discografia, Biografia y top10*/
 .discografia_h2, .biografia, .item_top-1{
@@ -36,11 +41,14 @@ a{
     justify-content: center;
     padding: 5px;
 }
-/*Img de top10*/
+/*top10*/
 .img-top10{
     height: 200px;
 }
 
+.top1album{
+    width: 50vh;
+}
 /*Fondos*/
 .fotomobile{
     margin: 10px;
@@ -62,3 +70,4 @@ a{
     font-size: medium;
     text-decoration: none;
 }
+
