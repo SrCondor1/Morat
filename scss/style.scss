@@ -70,4 +70,23 @@ a{
     font-size: medium;
     text-decoration: none;
 }
+/*discografia, albumes por separado*/
+.accordion{
+    width: auto
+}
+.album{
+    display: flex;
+    justify-content: center;
+}
+.Adondevamos{
+    border-radius: 10px;
+    width: 400px;
+    height: 460px;
+}
+.Sobreelamor, .Balasperdidas, .ColabySenc{
+    @extend .Adondevamos
+}
+.container{
+    margin-top: 30px;
+}
 
